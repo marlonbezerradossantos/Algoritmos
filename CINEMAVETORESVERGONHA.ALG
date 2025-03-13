@@ -27,12 +27,19 @@ Inicio
         se (B[lugar] = "") entao
             B[lugar] := "X"
             escreval("Assento reservado!")
+            limpatela
+            mostra()
         senao
             escreval("Erro: Assento ocupado!")
         fimse
+        limpatela
+        mostra()
+        escreval()
         escreva("Deseja reservar outra cadeira?[S/N]:")
         leia(resp)
     ate(resp = "n")
+    limpatela
+    mostra()
 
 
 

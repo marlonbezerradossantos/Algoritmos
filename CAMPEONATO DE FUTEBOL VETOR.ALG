@@ -16,11 +16,12 @@ Inicio
    escreval("--------------------")
    para C1 <- 1 ate 3 faca
      para C2 <- 1 ate 3 faca
-        se (time[C1]) = (time[C2]) então
+        se (time[C1]) = (time[C2]) entao
            nao escreval(time[C1]:10, "[ ] x [ ]", time[C2])
            senao
               escreval(time[C1]:10, "[ ] x [ ]", time[C2])
         fimse
      fimpara
    fimpara
+
 Fimalgoritmo
